@@ -1,0 +1,25 @@
+{
+  "layer": "top",
+  "position": "top",
+  "modules-left": ["cpu", "memory", "network"],
+  "modules-center": ["clock"],
+  "modules-right": ["battery", "temperature"],
+
+  "clock": {
+    "format": "{:%Y-%m-%d %H:%M:%S}"
+  },
+  "cpu": {
+    "format": "CPU: {usage}%"
+  },
+  "memory": {
+    "format": "RAM: {used} / {total} MB"
+  },
+  "battery": {
+    "format": "Battery: {capacity}% {status}",
+    "format-full": "Battery: Full"
+  },
+  "temperature": {
+    "format": "Temp: {temperature}\u00b0C"
+  }, 
+}
+
